@@ -910,6 +910,9 @@ body {
         width: 82px;
         height: auto;
     }
+    .glow::before {
+        display: none;
+    }
     .header .logo {        
         left: 50%;
         top: 20px;
