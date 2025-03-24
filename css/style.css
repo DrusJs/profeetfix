@@ -603,8 +603,6 @@ body {
     max-width: 280px; 
 }
 
-
-
 .review-section {
     margin-bottom: 100px;
 }
@@ -1005,6 +1003,15 @@ body {
     }
     .flex-section, .multimedia-section, .price-section, .image-section, .about-section {
         margin-top: 50px;
+    }
+    .main-section {
+        margin-bottom: 80px;
+    }
+    .flex-reverse-section {
+        margin-bottom: 80px;
+    }
+    .review-section {
+        margin-bottom: 80px;
     }
 
     .price-title p {
