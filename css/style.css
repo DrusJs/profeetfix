@@ -400,9 +400,6 @@ body {
     margin-bottom: 150px;
 }
 
-.about-section .title.center {
-    margin-bottom: 70px;
-}
 
 .flex-section .title {
     padding-left: 20px;
@@ -423,7 +420,7 @@ body {
 }
 
 .flex-reverse-section {
-    margin-bottom: 100px;
+    margin-bottom: 160px;
 }
 
 .flex-reverse-section .title {
@@ -477,7 +474,7 @@ body {
 
 .title.center {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 
@@ -579,8 +576,8 @@ body {
     content: '';
     display: block;
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.15);
     z-index: -1;
@@ -590,7 +587,7 @@ body {
 .price-text {
     font-family: var(--font-primary);
     font-weight: 400;
-    font-size: 18px;   
+    font-size: 20px;   
     line-height: 28px;
     max-width: 280px; 
 }
@@ -649,7 +646,7 @@ body {
 .about-item-num {
     font-family: var(--font-num);
     font-size: 66px;
-    font-weight: 400;
+    font-weight: 100;
     color: #035758;
 }
 
