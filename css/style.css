@@ -1026,7 +1026,7 @@ body {
         transform: translateX(-50%);
     }
     .flex-section, .multimedia-section, .price-section, .image-section, .about-section {
-        margin-top: 50px;
+        margin-bottom: 60px;
     }
     .main-section {
         margin-bottom: 80px;
