@@ -954,9 +954,8 @@ body {
     }
     .main-swiper .swiper-slide {
         min-height: 800px;
-        padding: 0 60px 0 20px;
+        padding: 165px 60px 0 20px;
         align-items: flex-start;
-        padding-top: 150px;
     }
 
     .main-swiper .swiper-slide .button-primary {
