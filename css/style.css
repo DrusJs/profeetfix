@@ -311,6 +311,7 @@ body {
     align-items: center;
     gap: 60px;
     position: absolute;
+    max-height: 50px;
     left: calc((100vw - 1180px) / 2) ;
     top: calc(75dvh + 10px);
 }
@@ -832,8 +833,6 @@ body {
     }
     .main-swiper .swiper-buttons-wrapper {
         left: 60px;
-        top: auto;
-        bottom: 80px;
     }
 
     .main-swiper .swiper-slide.swiper-slide-active .clip-image img {
@@ -872,8 +871,6 @@ body {
 
     .main-swiper .swiper-buttons-wrapper {
         left: 60px;
-        top: auto;
-        bottom: 80px;
     }
 
     .flex-reverse-section .flex-section-text {
@@ -972,7 +969,6 @@ body {
         gap: 26px;
     }
     .main-swiper .swiper-buttons-wrapper {
-        bottom: 140px;
         left: 20px;
     }
 

@@ -9,7 +9,32 @@ const swiper = new Swiper(".main-swiper", {
     pagination: {
         el: ".swiper-pagination",
     },
+    on: {
+        slideChangeTransitionEnd: updateSwiperButtonsMargin,
+    }
 });
+
+function updateSwiperButtonsMargin() {
+    const content = document.querySelector('.main-swiper-content');
+    const buttonsWrapper = document.querySelector('.main-swiper .swiper-buttons-wrapper');
+    const mql = window.matchMedia("(max-width: 768px)");
+
+    if (content && buttonsWrapper) {
+        const contentRect = content.getBoundingClientRect();
+        const offsetTop = contentRect.top + window.scrollY;
+        const height = contentRect.height;
+        const delta = mql.matches? 40:-40 
+        const newMarginTop = offsetTop + height + delta;
+        console.log(offsetTop, height)
+        buttonsWrapper.style.top = `${newMarginTop}px`;
+    }
+}
+
+window.addEventListener('load', updateSwiperButtonsMargin);
+window.addEventListener('resize', updateSwiperButtonsMargin);
+
+
+
 
 const swiperMedia = new Swiper(".media-swiper", {
     slidesPerView: 1,
