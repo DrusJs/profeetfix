@@ -1026,16 +1026,16 @@ body {
         transform: translateX(-50%);
     }
     .flex-section, .multimedia-section, .price-section, .image-section, .about-section {
-        margin-bottom: 60px;
+        margin-bottom: 100px;
     }
     .main-section {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
     .flex-reverse-section {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
     .review-section {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
 
     .price-title p {
