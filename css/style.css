@@ -105,7 +105,8 @@ body {
     position: absolute;
     left: 50px;
     top: 10px;
-    width: 85px;
+    width: 92px;
+    height: auto;
     z-index: 10;
 }
 
@@ -940,7 +941,7 @@ body {
 @media (max-width: 768px) {
     .header .logo img,
     .header .logo {
-        width: 82px;
+        width: 92px;
         height: auto;
     }
     .header .logo {        
