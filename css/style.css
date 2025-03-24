@@ -1,40 +1,51 @@
 @font-face {
     font-family: 'Muller';
-    src: url('../fonts/Muller-Light.woff2') format('woff2'),
-        url('../fonts/Muller-Light.woff') format('woff'),
-        url('../fonts/Muller-Light.ttf') format('truetype');
+    src: url('../fonts/MullerThin.ttf') format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerUltraLight.ttf') format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerLight.ttf') format('truetype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Muller';
-    src: url('../fonts/Muller-Regular.woff2') format('woff2'),
-        url('../fonts/Muller-Regular.woff') format('woff'),
-        url('../fonts/Muller-Regular.ttf') format('truetype');
+    src: url('../fonts/MullerRegular.ttf') format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Muller';
-    src: url('../fonts/Muller-Medium.woff2') format('woff2'),
-        url('../fonts/Muller-Medium.woff') format('woff'),
-        url('../fonts/Muller-Medium.ttf') format('truetype');
+    src: url('../fonts/MullerMedium.ttf') format('truetype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Muller';
-    src: url('../fonts/Muller-Bold.woff2') format('woff2'),
-        url('../fonts/Muller-Bold.woff') format('woff'),
-        url('../fonts/Muller-Bold.ttf') format('truetype');
-    font-weight: 700;
+    src: url('../fonts/MullerHeavy.ttf') format('truetype');
+    font-weight: 600;
 }
 
 @font-face {
     font-family: 'Muller';
-    src: url('../fonts/Muller-Black.woff2') format('woff2'),
-        url('../fonts/Muller-Black.woff') format('woff'),
-        url('../fonts/Muller-Black.ttf') format('truetype');
+    src: url('../fonts/MullerBold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerHeavy.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerBlack.ttf') format('truetype');
     font-weight: 900;
 }
 
