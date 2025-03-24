@@ -23,11 +23,11 @@ const swiperMedia = new Swiper(".media-swiper", {
         el: ".swiper-pagination",
     },
     breakpoints:{
-        867: {
-            slidesPerView: 2,
-            centeredSlides: false,            
+        931: {
+            slidesPerView: 2,  
+            centeredSlides: false,        
         },
-        1200: {
+        1300: {
             slidesPerView: 3,            
         }
     }
